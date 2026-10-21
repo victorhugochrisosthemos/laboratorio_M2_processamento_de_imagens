@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "lab": "m2.2",
+  "stages": ["m2.1", "m2.2"],
+  "language": "python",
+  "student": {
+    "name": "Victor Hugo Chrisosthemos Teixeira"
+  },
+  "entrypoint": "python -m pdi_lab"
+}

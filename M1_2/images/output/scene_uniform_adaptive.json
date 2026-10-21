@@ -1,0 +1,21 @@
+{
+  "operation": "segment",
+  "input": "images/input/scene_uniform.png",
+  "output": "images/output/scene_uniform_adaptive.png",
+  "width": 360,
+  "height": 240,
+  "mask_values": [
+    0,
+    255
+  ],
+  "foreground_pixels": 18686,
+  "foreground_ratio": 0.216273,
+  "parameters": {
+    "method": "adaptive",
+    "foreground": "dark",
+    "threshold": null,
+    "block_size": 75,
+    "c": 8.0
+  },
+  "opencv_version": "4.13.0"
+}

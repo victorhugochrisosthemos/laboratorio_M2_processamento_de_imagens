@@ -1,0 +1,21 @@
+{
+  "operation": "segment",
+  "input": "images/input/scene_uniform.png",
+  "output": "images/output/scene_uniform_fixed.png",
+  "width": 360,
+  "height": 240,
+  "mask_values": [
+    0,
+    255
+  ],
+  "foreground_pixels": 18945,
+  "foreground_ratio": 0.219271,
+  "parameters": {
+    "method": "fixed",
+    "foreground": "dark",
+    "threshold": 120,
+    "block_size": null,
+    "c": null
+  },
+  "opencv_version": "4.13.0"
+}

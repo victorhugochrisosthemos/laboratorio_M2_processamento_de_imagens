@@ -1,0 +1,40 @@
+{
+  "operation": "analyze",
+  "input": "images/input/diagonal_demo_mask.png",
+  "output_prefix": "results/diagonal_c8",
+  "width": 120,
+  "height": 96,
+  "parameters": {
+    "connectivity": 8,
+    "min_area": 20,
+    "sequence": [
+      "open",
+      "close"
+    ],
+    "kernel_size": 3,
+    "kernel_shape": "ellipse",
+    "iterations": 1
+  },
+  "before": {
+    "foreground_pixels": 1049,
+    "foreground_ratio": 0.091059,
+    "raw_components": 3,
+    "filtered_components": 2,
+    "raw_area_sum": 1049,
+    "filtered_area_sum": 1040
+  },
+  "after": {
+    "foreground_pixels": 1033,
+    "foreground_ratio": 0.08967,
+    "raw_components": 4,
+    "filtered_components": 3,
+    "raw_area_sum": 1033,
+    "filtered_area_sum": 1028
+  },
+  "changed_pixels": 16,
+  "intermediates": [
+    "results/diagonal_c8_step_01_open.png",
+    "results/diagonal_c8_step_02_close.png"
+  ],
+  "opencv_version": "4.13.0"
+}
