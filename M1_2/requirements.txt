@@ -1,3 +1,0 @@
-# Pacote Python que fornece a biblioteca OpenCV (cv2), sem interface gráfica.
-opencv-python-headless>=4.8,<5
-numpy>=1.26,<3
