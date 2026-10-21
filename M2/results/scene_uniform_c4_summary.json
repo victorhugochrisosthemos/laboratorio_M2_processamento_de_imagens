@@ -1,0 +1,40 @@
+{
+  "operation": "analyze",
+  "input": "images/output/scene_uniform_adaptive.png",
+  "output_prefix": "results/scene_uniform_c4",
+  "width": 360,
+  "height": 240,
+  "parameters": {
+    "connectivity": 4,
+    "min_area": 20,
+    "sequence": [
+      "open",
+      "close"
+    ],
+    "kernel_size": 3,
+    "kernel_shape": "ellipse",
+    "iterations": 1
+  },
+  "before": {
+    "foreground_pixels": 18686,
+    "foreground_ratio": 0.216273,
+    "raw_components": 37,
+    "filtered_components": 8,
+    "raw_area_sum": 18686,
+    "filtered_area_sum": 18627
+  },
+  "after": {
+    "foreground_pixels": 18638,
+    "foreground_ratio": 0.215718,
+    "raw_components": 12,
+    "filtered_components": 8,
+    "raw_area_sum": 18638,
+    "filtered_area_sum": 18618
+  },
+  "changed_pixels": 180,
+  "intermediates": [
+    "results/scene_uniform_c4_step_01_open.png",
+    "results/scene_uniform_c4_step_02_close.png"
+  ],
+  "opencv_version": "4.13.0"
+}

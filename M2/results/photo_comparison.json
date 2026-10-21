@@ -1,0 +1,34 @@
+{
+  "foto_moedas": {
+    "input": "images/input/foto_moedas.png",
+    "description": "moedas sobre fundo cinza",
+    "target": "regioes mais claras com geometria aproximadamente circular",
+    "fixed_threshold": 120,
+    "adaptive_block_size": 75,
+    "adaptive_c": -4,
+    "foreground": "light",
+    "fixed_pixels": 38336,
+    "fixed_ratio": 0.329483,
+    "adaptive_pixels": 37188,
+    "adaptive_ratio": 0.319616,
+    "disagreement_pixels": 8408,
+    "disagreement_note": "Diferenca entre metodos, nao acuracia; sem mascara verdadeira",
+    "selected_for_analyze": "fixed"
+  },
+  "foto_xicara": {
+    "input": "images/input/foto_xicara.png",
+    "description": "xicara, pires e fundo texturizado",
+    "target": "regioes mais claras com geometria aproximadamente circular",
+    "fixed_threshold": 170,
+    "adaptive_block_size": 75,
+    "adaptive_c": -4,
+    "foreground": "light",
+    "fixed_pixels": 29254,
+    "fixed_ratio": 0.121892,
+    "adaptive_pixels": 70243,
+    "adaptive_ratio": 0.292679,
+    "disagreement_pixels": 55107,
+    "disagreement_note": "Diferenca entre metodos, nao acuracia; sem mascara verdadeira",
+    "selected_for_analyze": "fixed"
+  }
+}

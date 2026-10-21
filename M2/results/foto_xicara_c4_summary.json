@@ -1,0 +1,40 @@
+{
+  "operation": "analyze",
+  "input": "images/output/foto_xicara_fixed.png",
+  "output_prefix": "results/foto_xicara_c4",
+  "width": 600,
+  "height": 400,
+  "parameters": {
+    "connectivity": 4,
+    "min_area": 20,
+    "sequence": [
+      "open",
+      "close"
+    ],
+    "kernel_size": 3,
+    "kernel_shape": "ellipse",
+    "iterations": 1
+  },
+  "before": {
+    "foreground_pixels": 29254,
+    "foreground_ratio": 0.121892,
+    "raw_components": 1489,
+    "filtered_components": 46,
+    "raw_area_sum": 29254,
+    "filtered_area_sum": 26459
+  },
+  "after": {
+    "foreground_pixels": 25681,
+    "foreground_ratio": 0.107004,
+    "raw_components": 78,
+    "filtered_components": 32,
+    "raw_area_sum": 25681,
+    "filtered_area_sum": 25267
+  },
+  "changed_pixels": 4379,
+  "intermediates": [
+    "results/foto_xicara_c4_step_01_open.png",
+    "results/foto_xicara_c4_step_02_close.png"
+  ],
+  "opencv_version": "4.13.0"
+}

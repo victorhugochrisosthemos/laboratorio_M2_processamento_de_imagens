@@ -1,0 +1,40 @@
+{
+  "operation": "analyze",
+  "input": "images/output/foto_moedas_fixed.png",
+  "output_prefix": "results/foto_moedas_c8",
+  "width": 384,
+  "height": 303,
+  "parameters": {
+    "connectivity": 8,
+    "min_area": 20,
+    "sequence": [
+      "open",
+      "close"
+    ],
+    "kernel_size": 3,
+    "kernel_shape": "ellipse",
+    "iterations": 1
+  },
+  "before": {
+    "foreground_pixels": 38336,
+    "foreground_ratio": 0.329483,
+    "raw_components": 87,
+    "filtered_components": 27,
+    "raw_area_sum": 38336,
+    "filtered_area_sum": 38189
+  },
+  "after": {
+    "foreground_pixels": 38192,
+    "foreground_ratio": 0.328245,
+    "raw_components": 38,
+    "filtered_components": 29,
+    "raw_area_sum": 38192,
+    "filtered_area_sum": 38115
+  },
+  "changed_pixels": 2608,
+  "intermediates": [
+    "results/foto_moedas_c8_step_01_open.png",
+    "results/foto_moedas_c8_step_02_close.png"
+  ],
+  "opencv_version": "4.13.0"
+}

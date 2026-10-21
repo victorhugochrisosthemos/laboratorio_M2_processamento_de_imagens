@@ -1,0 +1,22 @@
+test_abertura_remove_ruido (test_lab.ComponentTests.test_abertura_remove_ruido) ... ok
+test_args_invalidos (test_lab.ComponentTests.test_args_invalidos) ... ok
+test_conectividade_diagonal (test_lab.ComponentTests.test_conectividade_diagonal) ... ok
+test_exatamente_dois_pixels_na_diagonal (test_lab.ComponentTests.test_exatamente_dois_pixels_na_diagonal) ... ok
+test_fechamento_preenche_furo_pequeno (test_lab.ComponentTests.test_fechamento_preenche_furo_pequeno) ... ok
+test_filtro_preserva_contagem_bruta (test_lab.ComponentTests.test_filtro_preserva_contagem_bruta) ... ok
+test_mascara_invalida (test_lab.ComponentTests.test_mascara_invalida) ... ok
+test_mascara_vazia_e_objeto_na_borda (test_lab.ComponentTests.test_mascara_vazia_e_objeto_na_borda) ... ok
+test_min_area_zero_e_filtragem (test_lab.ComponentTests.test_min_area_zero_e_filtragem) ... ok
+test_arquivo_inexistente_e_nao_binario (test_lab.FilesAndCLITests.test_arquivo_inexistente_e_nao_binario) ... ok
+test_cli_codigo_de_saida (test_lab.FilesAndCLITests.test_cli_codigo_de_saida) ... ok
+test_duas_fotografias_em_duas_configuracoes_e_conectividades (test_lab.FilesAndCLITests.test_duas_fotografias_em_duas_configuracoes_e_conectividades) ... ok
+test_exportacao_medidas_e_reexecucao (test_lab.FilesAndCLITests.test_exportacao_medidas_e_reexecucao) ... ok
+test_adaptive_e_otsu_saidas_binarias (test_lab.SegmentTests.test_adaptive_e_otsu_saidas_binarias) ... ok
+test_fixed_limiar_inclui_igual_para_objeto_escuro (test_lab.SegmentTests.test_fixed_limiar_inclui_igual_para_objeto_escuro) ... ok
+test_foreground_claro (test_lab.SegmentTests.test_foreground_claro) ... ok
+test_parametros_invalidos (test_lab.SegmentTests.test_parametros_invalidos) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 4.748s
+
+OK
