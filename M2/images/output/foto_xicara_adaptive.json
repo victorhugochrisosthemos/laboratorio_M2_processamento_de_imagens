@@ -1,0 +1,21 @@
+{
+  "operation": "segment",
+  "input": "images/input/foto_xicara.png",
+  "output": "images/output/foto_xicara_adaptive.png",
+  "width": 600,
+  "height": 400,
+  "mask_values": [
+    0,
+    255
+  ],
+  "foreground_pixels": 70243,
+  "foreground_ratio": 0.292679,
+  "parameters": {
+    "method": "adaptive",
+    "foreground": "light",
+    "threshold": null,
+    "block_size": 75,
+    "c": -4.0
+  },
+  "opencv_version": "4.13.0"
+}

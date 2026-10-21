@@ -1,0 +1,21 @@
+{
+  "operation": "segment",
+  "input": "images/input/foto_moedas.png",
+  "output": "images/output/foto_moedas_fixed.png",
+  "width": 384,
+  "height": 303,
+  "mask_values": [
+    0,
+    255
+  ],
+  "foreground_pixels": 38336,
+  "foreground_ratio": 0.329483,
+  "parameters": {
+    "method": "fixed",
+    "foreground": "light",
+    "threshold": 120,
+    "block_size": null,
+    "c": null
+  },
+  "opencv_version": "4.13.0"
+}

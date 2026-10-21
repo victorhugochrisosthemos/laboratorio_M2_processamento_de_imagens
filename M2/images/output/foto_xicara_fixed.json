@@ -1,0 +1,21 @@
+{
+  "operation": "segment",
+  "input": "images/input/foto_xicara.png",
+  "output": "images/output/foto_xicara_fixed.png",
+  "width": 600,
+  "height": 400,
+  "mask_values": [
+    0,
+    255
+  ],
+  "foreground_pixels": 29254,
+  "foreground_ratio": 0.121892,
+  "parameters": {
+    "method": "fixed",
+    "foreground": "light",
+    "threshold": 170,
+    "block_size": null,
+    "c": null
+  },
+  "opencv_version": "4.13.0"
+}
