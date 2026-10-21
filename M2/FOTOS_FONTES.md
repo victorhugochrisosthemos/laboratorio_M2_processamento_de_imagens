@@ -1,0 +1,8 @@
+# Fotografias reais utilizadas
+
+Estas duas entradas são fotografias **de terceiros**, não fotografias tiradas pelo estudante. Foram incluídas como amostras para comparar a segmentação em cenas fotografadas distintas. Não há máscara de referência manual para elas. As imagens `scene_*.png` são desenhos sintéticos e estão separadas desses dois exemplos.
+
+1. `images/input/foto_moedas.png` — fotografia em tons de cinza de moedas gregas de Pompeia, da coleção do Brooklyn Museum. Distribuída como imagem de amostra `skimage.data.coins()`, em formato 384 × 303 pixels. A documentação informa **ausência de restrições de direitos autorais conhecidas**. Original preservado no projeto, convertido em arquivo PNG sem mudanças de conteúdo. Fonte: https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.coins
+2. `images/input/foto_xicara.png` — fotografia colorida com xícara, pires e colher, cedida pelo Pikolo Espresso Bar. Fotógrafa: **Rachel Michetti**; imagem disponibilizada em **CC0**. Distribuída como `skimage.data.coffee()` em 600 × 400 pixels. O arquivo fornecido é PNG sem alterações de cena. Fonte: https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.coffee
+
+As duas cenas fotografadas têm tipos diferentes de objetos aproximadamente circulares; portanto a contagem de componentes representa **regiões conexas do primeiro plano**, e não uma contagem semanticamente validada de moedas ou xícaras. Se o professor exigir que o mesmo tipo específico de objeto apareça nas duas fotografias, substitua-as por duas fotos próprias com o mesmo alvo e reexecute `python tools/reproduce.py` ajustando configurações conforme necessário.
